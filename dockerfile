@@ -26,4 +26,4 @@ WORKDIR /app
 COPY . .
 
 # Command to run your application
-CMD [ "node", "start" ]
+CMD [ "npm", "start" ]
