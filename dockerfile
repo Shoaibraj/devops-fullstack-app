@@ -1,1 +1,3 @@
-FROM ub
+FROM ubuntu:latest
+
+LABEL key="value"
