@@ -8,7 +8,8 @@ RUN apt install nodejs npm -y
 RUN node --version
 RUN npm -version
 
-COPY . . dest
+COPY . .
+
 
 EXPOSE 3000
 
