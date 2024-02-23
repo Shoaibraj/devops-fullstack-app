@@ -27,3 +27,4 @@ COPY . .
 
 # Command to run your application
 CMD [ "npm", "run", "build" ]
+
