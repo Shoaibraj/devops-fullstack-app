@@ -8,7 +8,7 @@ RUN apt install nodejs npm -y
 RUN node --version
 RUN npm -version
 
-WORKDIR /the/workdir/path
+WORKDIR /app1
 
 COPY . .
 
