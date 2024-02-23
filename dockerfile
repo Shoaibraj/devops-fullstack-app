@@ -12,7 +12,8 @@ RUN curl -fsSL https://deb.nodesource.com/setup_16.x | bash - \
 
 # Install npm separately
 #RUN apt-get install -y npm
-RUN 
+RUN npm install react-scripts --save
+
 
 # Verify installation
 RUN node -v
@@ -25,4 +26,4 @@ WORKDIR /app
 COPY . .
 
 # Command to run your application
-CMD [ "node", "app.js" ]
+CMD [ "node", "start" ]
