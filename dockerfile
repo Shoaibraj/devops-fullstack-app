@@ -24,4 +24,4 @@ WORKDIR /app
 COPY . .
 
 # Command to run your application
-CMD [ "npm", "" ]
+CMD [ "npm", "run" ]
