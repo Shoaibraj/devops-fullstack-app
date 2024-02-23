@@ -9,7 +9,7 @@ RUN node --version
 RUN npm -version
 RUN apt insatll npm -y
 RUN npm install react-scripts --save
-
+RUN npm install 
 WORKDIR /app1
 
 COPY . .
