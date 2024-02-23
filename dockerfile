@@ -18,3 +18,4 @@ WORKDIR /root/frontend
 CMD [ "npm", "run", "build" ]
 
 
+EXPOSE 3000
