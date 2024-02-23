@@ -15,4 +15,6 @@ COPY /root/devops-fullstack-app/frontend/* /root/frontend/
 
 WORKDIR /root/frontend
 
-CMD [ "npm", "run" ]
+CMD [ "npm", "run", "build" ]
+
+
