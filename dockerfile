@@ -12,3 +12,5 @@ RUN apt update
 RUN apt install nodejs npm -y
 RUN apt install build-essential -y
 COPY /root/devops-fullstack-app/frontend/* /root/frontend/
+
+WORKDIR /the/workdir/path
