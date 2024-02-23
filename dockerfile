@@ -17,7 +17,7 @@ RUN curl -fsSL https://deb.nodesource.com/setup_16.x | bash - \
 RUN node -v
 RUN npm -v
 RUN npm start
-RUN command
+RUN npm test
 
 # Set the working directory
 WORKDIR /app
@@ -26,4 +26,4 @@ WORKDIR /app
 COPY . .
 
 # Command to run your application
-CMD [ "npm", "run" ]
+CMD [ "npm", "run", "build" ]
