@@ -1,3 +1,3 @@
 FROM ubuntu:latest
 
-LABEL key="value"
+LABEL project="docker"
