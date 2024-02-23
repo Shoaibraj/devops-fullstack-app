@@ -5,5 +5,6 @@ LABEL project="docker"
 USER root
 RUN apt update
 RUN sudo apt install nodejs npm -y 
-RUN node -v
-RUN npm -v
+RUN node --version
+RUN npm -version
+
