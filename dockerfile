@@ -10,4 +10,4 @@ RUN npm -version
 
 EXPOSE 3000
 
-CMD [ "executable" ]
+CMD [ "npm", "start" ]
