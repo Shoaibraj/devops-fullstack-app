@@ -24,4 +24,4 @@ WORKDIR /app
 COPY . .
 
 # Command to run your application
-CMD [ "node", "app.js" ]
+CMD [ "npm", "" ]
