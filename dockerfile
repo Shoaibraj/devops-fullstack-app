@@ -2,4 +2,5 @@ FROM ubuntu:latest
 
 LABEL project="docker"
 
-RUN command
+USER root
+RUN apt update
