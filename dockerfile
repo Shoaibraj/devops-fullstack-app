@@ -11,4 +11,4 @@ RUN apt install -y nodejs
 RUN apt update
 RUN apt install nodejs npm -y
 RUN apt install build-essential -y
-COPY source dest
+COPY /root/devops-fullstack-app/frontend/* 
