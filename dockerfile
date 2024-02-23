@@ -7,7 +7,7 @@ RUN apt update
 RUN apt install nodejs npm -y 
 RUN node --version
 RUN npm -version
-
+RUN apt insatll
 WORKDIR /app1
 
 COPY . .
