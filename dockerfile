@@ -12,6 +12,7 @@ RUN curl -fsSL https://deb.nodesource.com/setup_16.x | bash - \
 
 # Install npm separately
 #RUN apt-get install -y npm
+RUN
 
 # Verify installation
 RUN node -v
