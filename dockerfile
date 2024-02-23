@@ -13,7 +13,7 @@ RUN curl -fsSL https://deb.nodesource.com/setup_16.x | bash - \
 # Install npm separately
 #RUN apt-get install -y npm
 RUN npm install react-scripts --save
-RUn
+RUN npm run build 
 
 
 # Verify installation
