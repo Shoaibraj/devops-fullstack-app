@@ -14,7 +14,7 @@ WORKDIR /opt
 RUN git clone https://github.com/Shoaibraj/devops-fullstack-app.git
 
 # Change the working directory to /opt/Frontend
-WORKDIR /opt/
+#WORKDIR /opt/Frontend
 
 COPY package.json package-lock.json ./
 
