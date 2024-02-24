@@ -10,7 +10,7 @@ RUN yum update -y && \
 
 # Clone the GitHub repository
 RUN git clone https://github.com/Shoaibraj/devops-fullstack-app.git
-WORKDIR /devops-fullstack-app/frontend/
+WORKDIR /devops-fullstack-app/frontend
 
 # Install npm dependencies
 RUN npm install
