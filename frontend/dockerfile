@@ -8,13 +8,11 @@ RUN yum update -y && \
     yum install -y npm
 
 # Set the working directory
-#WORKDIR /app1
-
 # Clone the GitHub repository
 RUN git clone https://github.com/Shoaibraj/devops-fullstack-app.git
 WORKDIR /devops-fullstack-app/frontend/
 # Change the working directory to /opt/Frontend
-#WORKDIR /opt/Frontend
+
 
 #COPY package.json package-lock.json ./
 
