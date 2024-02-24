@@ -12,7 +12,7 @@ RUN yum update -y && \
 
 # Clone the GitHub repository
 RUN git clone https://github.com/Shoaibraj/devops-fullstack-app.git
-WORKDIR /devops-fullstack-app/fro
+WORKDIR /devops-fullstack-app/frontend/
 # Change the working directory to /opt/Frontend
 #WORKDIR /opt/Frontend
 
